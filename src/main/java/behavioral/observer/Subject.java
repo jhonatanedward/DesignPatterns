@@ -1,4 +1,4 @@
-package criational.observer;
+package behavioral.observer;
 
 public interface Subject {
     void registerObserver(Observer observer);

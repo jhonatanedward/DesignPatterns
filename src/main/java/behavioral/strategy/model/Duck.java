@@ -1,4 +1,4 @@
-package criational.strategy.model;
+package behavioral.strategy.model;
 
 public abstract class Duck {
     protected FlyBehavior flyBehavior;

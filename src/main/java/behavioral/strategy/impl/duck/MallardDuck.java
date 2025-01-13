@@ -1,8 +1,8 @@
-package criational.strategy.impl.duck;
+package behavioral.strategy.impl.duck;
 
-import criational.strategy.impl.behaviors.FlyWithWings;
-import criational.strategy.impl.behaviors.Quack;
-import criational.strategy.model.Duck;
+import behavioral.strategy.impl.behaviors.FlyWithWings;
+import behavioral.strategy.impl.behaviors.Quack;
+import behavioral.strategy.model.Duck;
 
 public class MallardDuck extends Duck {
 

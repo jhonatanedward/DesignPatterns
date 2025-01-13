@@ -1,6 +1,6 @@
-package criational.strategy.impl.behaviors;
+package behavioral.strategy.impl.behaviors;
 
-import criational.strategy.model.FlyBehavior;
+import behavioral.strategy.model.FlyBehavior;
 
 public class FlyRocketPowered implements FlyBehavior {
 

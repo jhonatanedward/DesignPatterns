@@ -1,4 +1,4 @@
-package criational.observer;
+package behavioral.observer;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
     private float maxTemp = 0.0f;

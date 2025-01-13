@@ -1,6 +1,6 @@
-package criational.strategy.impl.behaviors;
+package behavioral.strategy.impl.behaviors;
 
-import criational.strategy.model.QuackBehavior;
+import behavioral.strategy.model.QuackBehavior;
 
 public class MuteQuack implements QuackBehavior {
     @Override

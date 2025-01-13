@@ -1,9 +1,9 @@
-package criational.strategy.impl;
+package behavioral.strategy.impl;
 
-import criational.strategy.impl.behaviors.FlyRocketPowered;
-import criational.strategy.impl.duck.MallardDuck;
-import criational.strategy.impl.duck.ModelDuck;
-import criational.strategy.model.Duck;
+import behavioral.strategy.impl.behaviors.FlyRocketPowered;
+import behavioral.strategy.impl.duck.MallardDuck;
+import behavioral.strategy.impl.duck.ModelDuck;
+import behavioral.strategy.model.Duck;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {
