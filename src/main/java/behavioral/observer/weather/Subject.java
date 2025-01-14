@@ -1,4 +1,4 @@
-package behavioral.observer;
+package behavioral.observer.weather;
 
 public interface Subject {
     void registerObserver(Observer observer);

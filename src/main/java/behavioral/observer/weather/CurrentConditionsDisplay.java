@@ -1,4 +1,4 @@
-package behavioral.observer;
+package behavioral.observer.weather;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;
