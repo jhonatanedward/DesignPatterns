@@ -3,7 +3,9 @@ package structural.decorator.starbuzz;
 public class StarbuzzCoffee {
     public static void main(String[] args) {
         Beverage beverage = new Expresso();
-        System.out.println(beverage.getDescription() + " $" + beverage.cost());
+        beverage.size = Beverage.Size.VENTI;
+        Beverage aa = new Soy(beverage);
+        System.out.println(beverage.getDescription() + " $" + aa.cost());
 
         Beverage beverage2 = new DarkRoast();
         beverage2 = new Mocha(beverage2);
